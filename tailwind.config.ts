@@ -22,8 +22,8 @@ export default {
         warhammer: {
           black: "#222222",
           darkblue: "#1A1F2C",
-          purple: "#9b87f5",
-          "purple-dark": "#7E69AB",
+          purple: "#F0B323", // Changed to gold
+          "purple-dark": "#C99A2E", // Changed to darker gold
           gray: "#403E43",
           "gray-light": "#8A898C",
         },
