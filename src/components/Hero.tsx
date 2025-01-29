@@ -1,4 +1,4 @@
-const Hero = () => {
+lconst Hero = () => {
   return (
     <div className="relative min-h-screen flex items-center justify-center bg-white">
       {/* Background image */}
@@ -15,7 +15,7 @@ const Hero = () => {
           Enter the Dark Realm
         </h1>
         <p className="text-warhammer-purple text-xl md:text-2xl max-w-2xl mx-auto">
-          Discover the gothic darkness of the Warhammer universe
+          Discover the gothic darkness of the Gael universe
         </p>
       </div>
     </div>
