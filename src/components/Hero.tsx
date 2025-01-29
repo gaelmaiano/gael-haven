@@ -1,4 +1,4 @@
-lconst Hero = () => {
+const Hero = () => {
   return (
     <div className="relative min-h-screen flex items-center justify-center bg-white">
       {/* Background image */}
