@@ -32,7 +32,7 @@ const Footer = () => {
           <div>
             <h3 className="font-gothic text-xl text-gael-purple mb-4">Connect</h3>
             <p className="text-gael-gray-light">
-              Join our community and stay updated with the latest news and events.
+              gaelmaiano@gmail.com
             </p>
           </div>
         </div>
