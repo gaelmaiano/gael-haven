@@ -1,16 +1,14 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import ImageGallery from "@/components/ImageGallery";
-import NewsSection from "@/components/NewsSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-white text-warhammer-black">
+    <div className="min-h-screen bg-white text-gael-black">
       <Navigation />
       <Hero />
       <ImageGallery />
-      <NewsSection />
       <Footer />
     </div>
   );
