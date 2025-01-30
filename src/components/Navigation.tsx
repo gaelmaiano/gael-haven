@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,15 +11,15 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <span className="font-gothic text-2xl text-gael-purple">GAEL</span>
+              <Link to="/" className="font-gothic text-2xl text-gael-purple">GAEL</Link>
             </div>
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <a href="#" className="font-gothic px-3 py-2 text-gael-purple hover:text-gael-purple-dark transition-colors">Home</a>
-              <a href="#" className="font-gothic px-3 py-2 text-gael-purple hover:text-gael-purple-dark transition-colors">News</a>
-              <a href="#" className="font-gothic px-3 py-2 text-gael-purple hover:text-gael-purple-dark transition-colors">Gallery</a>
-              <a href="#" className="font-gothic px-3 py-2 text-gael-purple hover:text-gael-purple-dark transition-colors">About</a>
+              <Link to="/" className="font-gothic px-3 py-2 text-gael-purple hover:text-gael-purple-dark transition-colors">Home</Link>
+              <Link to="/news" className="font-gothic px-3 py-2 text-gael-purple hover:text-gael-purple-dark transition-colors">News</Link>
+              <Link to="/gallery" className="font-gothic px-3 py-2 text-gael-purple hover:text-gael-purple-dark transition-colors">Gallery</Link>
+              <Link to="/about" className="font-gothic px-3 py-2 text-gael-purple hover:text-gael-purple-dark transition-colors">About</Link>
             </div>
           </div>
           <div className="md:hidden">
@@ -35,10 +36,10 @@ const Navigation = () => {
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-black">
-            <a href="#" className="font-gothic block px-3 py-2 text-gael-purple hover:text-gael-purple-dark">Home</a>
-            <a href="#" className="font-gothic block px-3 py-2 text-gael-purple hover:text-gael-purple-dark">News</a>
-            <a href="#" className="font-gothic block px-3 py-2 text-gael-purple hover:text-gael-purple-dark">Gallery</a>
-            <a href="#" className="font-gothic block px-3 py-2 text-gael-purple hover:text-gael-purple-dark">About</a>
+            <Link to="/" className="font-gothic block px-3 py-2 text-gael-purple hover:text-gael-purple-dark">Home</Link>
+            <Link to="/news" className="font-gothic block px-3 py-2 text-gael-purple hover:text-gael-purple-dark">News</Link>
+            <Link to="/gallery" className="font-gothic block px-3 py-2 text-gael-purple hover:text-gael-purple-dark">Gallery</Link>
+            <Link to="/about" className="font-gothic block px-3 py-2 text-gael-purple hover:text-gael-purple-dark">About</Link>
           </div>
         </div>
       )}
