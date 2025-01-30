@@ -19,11 +19,11 @@ export default {
     },
     extend: {
       colors: {
-        warhammer: {
+        gael: {
           black: "#222222",
           darkblue: "#1A1F2C",
-          purple: "#F0B323", // Changed to gold
-          "purple-dark": "#C99A2E", // Changed to darker gold
+          purple: "#F0B323", // Gold color
+          "purple-dark": "#C99A2E", // Darker gold
           gray: "#403E43",
           "gray-light": "#8A898C",
         },
